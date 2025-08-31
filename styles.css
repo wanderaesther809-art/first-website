@@ -3,3 +3,76 @@ img {
   height: auto;
   border-radius: 20;
 }
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.menu-section {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-section li {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  background: grey;
+  text-align: center;
+}
+
+.menu-section li img {
+  width: 100px;
+  height: 100;
+  border-radius: 80px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: purple;
+  margin-left: 10px;
+}
+
+#main-title {
+  color: brown;
+  font: size 15px;
+}
+
+h2 {
+  color: rgb(226, 43, 171);
+  font-size: small;
+  padding: 0;
+}
+h1 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 0;
+}
+p {
+  font-size: 15px;
+}
